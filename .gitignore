@@ -1,0 +1,25 @@
+# 敏感文件
+*.env
+.env
+config.json
+secrets.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# AI分析输出（可能含敏感教材内容）
+dse_analysis_output/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+*.swo
